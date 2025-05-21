@@ -5,6 +5,7 @@ This is the official implementation of **FlowDreamer: Exploring High Fidelity Te
 ### [Project Page](https://vlislab22.github.io/FlowDreamer/) | [Arxiv Paper](https://arxiv.org/abs/2408.05008v3)
 <!-- ![FlowDreamer Cover](https://github.com/cyjdlhy/assets/blob/main/FlowDreamer/cover.png)  
 ![FlowDreamer Video Demo](https://youtu.be/NCw2Qi0zoIk?si=xJamrWwk3yaULKFj) -->
+
 ### Installation
 
 To get started with FlowDreamer, follow the installation instructions below:
@@ -25,17 +26,16 @@ To get started with FlowDreamer, follow the installation instructions below:
 
 3. **Install Dependencies**
   
-  If you encounter issues while setting up the environment, please refer to [Threestudio](https://github.com/threestudio-project/threestudio). However, please note that the versions of `diffusers` and `transformers` should be installed using those specified in the `requirements.txt`.
+    If you encounter issues while setting up the environment, please refer to [Threestudio](https://github.com/threestudio-project/threestudio). However, please note that the versions of `diffusers` and `transformers` should be installed using those specified in the `requirements.txt`.
 
     ```bash
     pip install -r requirements.txt
     ```
 
-
 4. **Download the Model**
 
-    - Modify the `pretrained_model_name_or_path` path in the `configs/ucm.yaml` and `configs/vfds.yaml` file to point to Stable Diffusion 3 model (e.g., [Stable Diffusion 3 Medium](https://huggingface.co/stabilityai/stable-diffusion-3-medium)).
-    
+    - Modify the `pretrained_model_name_or_path` path in the `configs/ucm.yaml` and `configs/vfds.yaml` file to point to the Stable Diffusion 3 model (e.g., [Stable Diffusion 3 Medium](https://huggingface.co/stabilityai/stable-diffusion-3-medium)).
+
 5. **Run**
 
     ```bash
