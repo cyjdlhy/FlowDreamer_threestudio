@@ -24,11 +24,12 @@ To get started with FlowDreamer, follow the installation instructions below:
     ```
 
 3. **Install Dependencies**
+  
   If you encounter issues while setting up the environment, please refer to [Threestudio](https://github.com/threestudio-project/threestudio). However, please note that the versions of `diffusers` and `transformers` should be installed using those specified in the `requirements.txt`.
 
-  ```bash
-  pip install -r requirements.txt
-  ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 
 4. **Download the Model**
