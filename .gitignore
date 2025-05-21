@@ -1,0 +1,14 @@
+outputs
+x1_x0_images
+debug_dir
+.threestudio_cache
+outputs*
+x0_*/
+x1*/
+compare_images/
+./.threestudio_cache
+.vscode/*
+__pycache__/
+*.pyc
+*.pyo
+./:/*
